@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing_Suite]" guice-stage="DEVELOPMENT">
+  <test name="CucumberTest(failed)">
+    <classes>
+      <class name="mindq.seleniumtrainingaugframework.runners.Runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setup"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- mindq.seleniumtrainingaugframework.runners.Runner -->
+    </classes>
+  </test> <!-- CucumberTest(failed) -->
+</suite> <!-- Failed suite [Testing_Suite] -->
