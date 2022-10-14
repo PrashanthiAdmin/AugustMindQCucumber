@@ -50,7 +50,7 @@ public class LoginStepDefinitions extends LoginPageObjects{
 	    public void user_should_see_error_message_on_the_screen() throws IOException  {
 	    	boolean actualResult = errorMessagePresence();
 			
-			boolean expectedResult = false;
+			boolean expectedResult = true;
 			
 			sa.assertEquals(actualResult, expectedResult,"Values are not matching");
 			
