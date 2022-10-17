@@ -13,7 +13,7 @@ import mindq.seleniumtrainingaugframework.base.Base;
 
 @CucumberOptions(features = {"Features" },
                  glue =     {"mindq.seleniumtrainingaugframework.stepdefinitions"},
-                 plugin = { "pretty","html:target/cucumber-reports",
+                 plugin = { "pretty","html:target/cucumber-reports","json:target/cucumber-reports/Cucumber.json",
                 		 "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/extentreport.html"},
                  tags =     "@invalidlogin",
                  monochrome = true)
